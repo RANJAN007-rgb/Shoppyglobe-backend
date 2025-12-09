@@ -61,5 +61,5 @@ Server will run on `http://localhost:5000` by default.
 # 🧪 API Endpoints
 ## 🔐 Auth Routes
 Method	Endpoint	Description
-POST	/api/auth/register	Register a new user
-POST	/api/auth/login	Login and return JWT token
+POST	/api/auth/register: Register a new user
+POST	/api/auth/login:	Login and return JWT token
