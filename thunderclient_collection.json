@@ -1,0 +1,41 @@
+{
+  "tests": [],
+  "requests": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:5000/api/auth/register",
+        "body": {
+          "type": "json",
+          "raw": {
+            "name": "Test User",
+            "email": "test@example.com",
+            "password": "password123"
+          }
+        }
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:5000/api/auth/login",
+        "body": {
+          "type": "json",
+          "raw": {
+            "email": "test@example.com",
+            "password": "password123"
+          }
+        }
+      }
+    },
+    {
+      "name": "List Products",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/products"
+      }
+    }
+  ]
+}
