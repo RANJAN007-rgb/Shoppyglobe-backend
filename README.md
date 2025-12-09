@@ -2,13 +2,40 @@
 
 This project implements the backend required by your assignment: Build APIs with Node.js and Express for a simple e-commerce (ShoppyGlobe).
 
-## Features implemented
-- Products API: list products, get product by id
-- Cart API: add/update/delete cart items (protected via JWT)
-- User registration and login with JWT
-- MongoDB integration with Mongoose
-- Validation and error handling
-- Seed script to add sample products
+# 🚀 Features
+## 🔐 Authentication (JWT)
+
+User Registration
+
+User Login
+
+Password Hashing (bcrypt)
+
+Protected Routes using JWT middleware
+
+## 🛍 Product APIs
+
+Get all products
+
+Get product by ID
+
+Seed demo products
+
+## 🛒 Cart APIs
+
+Add item to cart
+
+Update quantity
+
+Remove item
+
+Access only with valid JWT token
+
+## 🗄 Database
+
+MongoDB + Mongoose
+
+Models: User, Product, CartItem
 
 ## Quick start
 
@@ -41,3 +68,4 @@ Server will run on `http://localhost:5000` by default.
 - `DELETE /api/cart/:itemId` — remove cart item (protected)
 
 Use ThunderClient / Postman to test. Include `Authorization: Bearer <token>` header when calling protected routes.
+
