@@ -58,14 +58,8 @@ npm run dev
 
 Server will run on `http://localhost:5000` by default.
 
-## API Endpoints (summary)
-- `POST /api/auth/register` — register a new user
-- `POST /api/auth/login` — login and receive JWT
-- `GET /api/products` — list all products
-- `GET /api/products/:id` — product details
-- `POST /api/cart` — add product to cart (protected)
-- `PUT /api/cart/:itemId` — update quantity of a cart item (protected)
-- `DELETE /api/cart/:itemId` — remove cart item (protected)
-
-Use ThunderClient / Postman to test. Include `Authorization: Bearer <token>` header when calling protected routes.
-
+# 🧪 API Endpoints
+## 🔐 Auth Routes
+Method	Endpoint	Description
+POST	/api/auth/register	Register a new user
+POST	/api/auth/login	Login and return JWT token
