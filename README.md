@@ -78,3 +78,10 @@ Server will run on `http://localhost:5000` by default.
 Method	Endpoint	Description
 POST	/api/auth/register: Register a new user
 POST	/api/auth/login:	Login and return JWT token
+
+## ⚙️ Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/RANJAN007-rgb/Shoppyglobe-backend
+   cd Shoppyglobe backend 
