@@ -36,6 +36,21 @@ Access only with valid JWT token
 MongoDB + Mongoose
 
 Models: User, Product, CartItem
+## 🛠 Tech Stack
+
+Node.js
+
+Express.js
+
+MongoDB
+
+Mongoose
+
+JWT Authentication
+
+bcrypt.js
+
+Nodemon
 
 ## Quick start
 
